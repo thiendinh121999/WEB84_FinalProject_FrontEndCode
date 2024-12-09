@@ -1,0 +1,316 @@
+.background{
+    margin:0;
+    padding:0;
+    height: 100vh;
+    box-sizing:border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(../../img//background.png);
+    background-size: 200%;
+    background-position-x: center;
+    background-position-y: center ;
+    background-repeat:repeat;
+}
+
+.cart-payment-wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.cart-wrap {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    height: 90%;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.payment-wrap {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    height: 85%;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.cart-payment-header{
+    font-size: 30px;
+}
+
+.cartlist-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent(255, 255, 255);
+    width: 80%;
+    height: 70%;
+    border-radius: 20px;
+    border: 1px solid gray;
+    padding-bottom: 10px;
+    justify-content: space-between;
+
+}
+
+.cartlist-header{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    width:90%;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(194, 194, 194);
+}
+
+.cartlist-header-product {
+    margin-left: 35%;
+}
+
+.cart-payment-header-price {
+    margin-right:5%;
+}
+.total-price-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 120%;
+    margin-top: 20px;
+    width: 80%;
+    font-size: 17px;
+    border-bottom: 1px solid grey;
+}
+
+.total-price-text{
+    color:black;
+}
+
+.salecode-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 120%;
+    margin-top: 10px;
+    width: 80%;
+    font-size: 17px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+}
+
+.salecode-input-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#salecode-input{
+    width:45%;
+    border-right: none;
+    border-width: 1px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    font-family: 'Pangea Afrikan Trial light'
+}
+
+#salecode-btn{
+    background-color: orangered;
+    border-width: 1px;
+    color: white;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.total-bill-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 120%;
+    margin-top: 20px;
+    width: 80%;
+    font-size: 17px;
+    border-bottom: 1px solid grey;
+}
+
+.total-bill-text{
+    color:orangered
+}
+
+.payment-form-wrap{
+    font-size:  24px;
+    width:90%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+
+}
+
+.payment-form-item-wrap{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.payconfirm-btn{
+    font-size: 30px;
+    width:100%;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+
+.payconfirm-btn:hover{
+    background-color: orangered;
+    color: white;
+}
+
+.applycard-btn{
+    font-size: 24px;
+    width:120px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 25px;
+}
+.applycard-btn:hover{
+    background-color: orangered;
+    color: white;
+}
+
+i{
+    font-family: 'Pangea Afrikan Trial light';
+    margin-top: 20px;
+}
+
+.payment-input{
+    width: 60%;
+    border: 2px solid rgb(201, 201, 201);
+    border-radius: 25px;
+    padding-left: 10px;
+    font-family: 'Pangea Afrikan Trial light'
+}
+.payment-input-cvc{
+    width: 20%;
+    border: 2px solid rgb(201, 201, 201);
+    border-radius: 25px;
+    padding-left: 10px;
+    font-family: 'Pangea Afrikan Trial light'
+}
+
+.cart-detail-list-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    overflow-y: overlay;
+    gap: 10px;
+    padding-top: 10px;
+    margin-bottom: 5px;
+}
+.cart-item-wrap{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cart-item-name{
+    width: 60%;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: 'Pangea Afrikan Trial light' ;
+}
+
+.cart-item-price{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: 'Pangea Afrikan Trial light' ;
+}
+
+.cart-prduct-image{
+    width: 10%;
+}
+
+.delete-cart-btn{
+    width: 90%;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.delete-cart-btn:hover{
+    background-color: blue;
+}
+
+@media screen and (width <= 600px) {
+    .background{
+        background-size: 1200%;
+    }
+}
+@media screen and (width > 600px) and (width <= 768px){
+    .background{
+        background-size: 700%;
+    }
+}
+
+@media screen and (width > 768px) and (width <= 992px){
+    .background{
+        background-size: 500%;
+    }
+    
+}
+
+@media screen and (width > 992px) and (width <= 1200px){
+    .background{
+        background-size: 380%;
+    }
+    
+}
+@media screen and (width > 1200px) and (width <= 1500px){
+    .background{
+        background-size: 320%;
+    }
+}
+
+@media screen and (width > 1200px) and (width <= 1500px){
+    .background{
+        background-size: 320%;
+    }
+}
+
+@media screen and (width > 1500px) and (width <= 1850px){
+    .background{
+        background-size: 280%;
+    }
+}

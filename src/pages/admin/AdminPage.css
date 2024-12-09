@@ -1,0 +1,9 @@
+.admin-links{
+ cursor: pointer;
+}
+.admin-links:hover{
+    color: orangered !important;
+}
+.admin-links:active{
+    color: orangered !important;
+}

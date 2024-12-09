@@ -1,0 +1,180 @@
+{
+    "productNew": [
+        {
+            "productName": "Áo Singlet Nam Chạy Bộ Graphic Photic Zone",
+            "type": "Đồ chạy bộ",
+            "description": "Mỏng nhẹ/Xanh dương",
+            "price": 189000,
+            "imageLink": "../img/New01.jpg",
+            "review": 235
+        },
+        {
+            "productName": "Áo Singlet Nam Chạy Bộ Graphic Photic Zone",
+            "type": "Đồ chạy bộ",
+            "description": "Mỏng nhẹ/Hồng",
+            "price": 189000,
+            "imageLink": "../img/New02.jpg",
+            "review": 142
+        },
+        {
+            "productName": "Áo Singlet Nam Chạy Bộ Graphic Photic Zone",
+            "type": "Đồ chạy bộ",
+            "description": "Mỏng nhẹ/Đen",
+            "price": 189000,
+            "imageLink": "../img/New03.jpg",
+            "review": 301
+        },
+        {
+            "productName": "Áo Thun Nam Chạy Bộ Graphic Photic Zone",
+            "type": "Đồ chạy bộ",
+            "description": "Mỏng nhẹ/Cam",
+            "price": 189000,
+            "imageLink": "../img/New04.jpg",
+            "review": 98
+        },
+        {
+            "productName": "Combo 3 Quần Lót Nam Trunk Excool Basics",
+            "type": "Đồ lót nam",
+            "description": "Microfiber/Xanh trắng",
+            "price": 299000,
+            "imageLink": "../img/New05.jpg",
+            "review": 78
+        },
+        {
+            "productName": "Quần Dài Jogger Nam Chạy Bộ Fast & Free",
+            "type": "Đồ chạy bộ",
+            "description": "Microfiber/Xanh trắng",
+            "price": 259000,
+            "imageLink": "../img/New06.jpg",
+            "review": 135
+        }
+    ],
+    "productSeasonal": [
+        {
+            "productName": "Áo Khoác Nam gió Thể Thao phối màu",
+            "type": "Áo khoác",
+            "description": "Chốn UV 99%/Rêu phối đen",
+            "price": 299000,
+            "imageLink": "../img/Seasonal01.png",
+            "review": 235
+        },
+        {
+            "productName": "Áo ám Nỉ chui đầu Lifewear nam cao cấp",
+            "type": "Áo ấm",
+            "description": "Giữ ấm/Xám sáng",
+            "price": 189000,
+            "imageLink": "../img/Seasonal03.png",
+            "review": 73
+        },
+        {
+            "productName": "Áo Khoác giữ ấm Nam phao Puffer cao cấp",
+            "type": "Đồ chạy bộ",
+            "description": "Siêu ấm/Xanh",
+            "price": 349000,
+            "imageLink": "../img/Seasonal04.png",
+            "review": 301
+        },
+        {
+            "productName": "Áo Khoác Nam có mũ Daily Wear cao cấp",
+            "type": "Áo khoác",
+            "description": "Chống UV 99%/Trắng",
+            "price": 299000,
+            "imageLink": "../img/Seasonal05.png",
+            "review": 98
+        },
+        {
+            "productName": "Quần Dài Jogger Nam Chạy Bộ Fast & Free",
+            "type": "Đồ chạy bộ",
+            "description": "Nhanh khô/Xám sáng",
+            "price": 259000,
+            "imageLink": "../img/Seasonal06.png",
+            "review": 78
+        }
+    ],
+    "productRun": [
+        {
+            "productName": "Áo Singlet Nam Chạy Bộ Graphic Photic Zone",
+            "type": "Đồ chạy bộ",
+            "description": "Mỏng nhẹ/Xanh dương",
+            "price": 189000,
+            "imageLink": "../img/New01.jpg",
+            "review": 235
+        },
+        {
+            "productName": "Áo Singlet Nam Chạy Bộ Graphic Photic Zone",
+            "type": "Đồ chạy bộ",
+            "description": "Mỏng nhẹ/Hồng",
+            "price": 189000,
+            "imageLink": "../img/New02.jpg",
+            "review": 142
+        },
+        {
+            "productName": "Áo Singlet Nam Chạy Bộ Graphic Photic Zone",
+            "type": "Đồ chạy bộ",
+            "description": "Mỏng nhẹ/Đen",
+            "price": 189000,
+            "imageLink": "../img/New03.jpg",
+            "review": 301
+        },
+        {
+            "productName": "Áo Thun Nam Chạy Bộ Graphic Photic Zone",
+            "type": "Đồ chạy bộ",
+            "description": "Mỏng nhẹ/Cam",
+            "price": 189000,
+            "imageLink": "../img/New04.jpg",
+            "review": 98
+        },
+        {
+            "productName": "Combo 3 Quần Lót Nam Trunk Excool Basics",
+            "type": "Đồ lót nam",
+            "description": "Microfiber/Xanh trắng",
+            "price": 299000,
+            "imageLink": "../img/New05.jpg",
+            "review": 78
+        },
+        {
+            "productName": "Quần Dài Jogger Nam Chạy Bộ Fast & Free",
+            "type": "Đồ chạy bộ",
+            "description": "Microfiber/Xanh trắng",
+            "price": 259000,
+            "imageLink": "../img/New06.jpg",
+            "review": 135
+        }
+    ],
+    "productThun": [
+        {
+            "productName": "Áo Singlet Nam Chạy Bộ Graphic Photic Zone",
+            "type": "Đồ chạy bộ",
+            "description": "Mỏng nhẹ/Xanh dương",
+            "price": 189000,
+            "imageLink": "../img/New01.jpg",
+            "review": 235
+        },
+        {
+            "productName": "Áo Singlet Nam Chạy Bộ Graphic Photic Zone",
+            "type": "Đồ chạy bộ",
+            "description": "Mỏng nhẹ/Hồng",
+            "price": 189000,
+            "imageLink": "../img/New02.jpg",
+            "review": 142
+        },
+        {
+            "productName": "Áo Singlet Nam Chạy Bộ Graphic Photic Zone",
+            "type": "Đồ chạy bộ",
+            "description": "Mỏng nhẹ/Đen",
+            "price": 189000,
+            "imageLink": "../img/New03.jpg",
+            "review": 301
+        },
+        {
+            "productName": "Áo Thun Nam Chạy Bộ Graphic Photic Zone",
+            "type": "Đồ chạy bộ",
+            "description": "Mỏng nhẹ/Cam",
+            "price": 189000,
+            "imageLink": "../img/New04.jpg",
+            "review": 98
+        }
+    ]
+    
+}
+

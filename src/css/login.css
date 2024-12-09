@@ -1,0 +1,720 @@
+body{
+    margin:0;
+    padding:0;
+    height: 100vh;
+    box-sizing:border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(../Resource/background.png);
+    background-size: 200%;
+    background-position-x: center;
+    background-position-y: center ;
+    background-repeat: no-repeat;
+}
+
+.phone-email{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+}
+.phone{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.mail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.login-container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    height: 60%;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.signup-container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    height: 60%;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.login-form{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+.form-head{
+    font-size: 50px; 
+    font-family: 'Pangea Afrikan Trial SemiBold'; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-bottom: 50px
+}
+
+#username{
+    margin-bottom: 20px;
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 20px;
+    font-family: 'Pangea Afrikan Trial Medium';
+    padding: 5px 20px 2px 20px;
+    border: 1px solid rgb(175, 175, 175);
+}
+
+#email{
+    margin-bottom: 20px;
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 20px;
+    font-family: 'Pangea Afrikan Trial Medium';
+    padding: 5px 20px 2px 20px;
+    border: 1px solid rgb(175, 175, 175);
+}
+
+#password{
+    margin-bottom: 20px;
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 20px;
+    font-family: 'Pangea Afrikan Trial Medium';
+    padding: 5px 20px 2px 20px;
+    border: 1px solid rgb(175, 175, 175);
+}
+
+#btn-login{
+    border:0px; 
+    border-radius: 20px; 
+    font-family: 'Pangea Afrikan Trial SemiBold';color:white; 
+    background-color: black; 
+    height: 50px;
+    width:100%;
+    font-size: 30px;
+    line-height: 50px;;
+}
+#btn-login:hover{
+    background-color: orangered;
+}
+
+hr {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-top: 2px solid rgb(61, 61, 61);
+}
+
+.question {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(75, 75, 75);
+    font-size: 20px;
+    font-family: 'Pangea Afrikan Trial light';
+}
+
+
+#btn-signup{
+    border:0px; 
+    border-radius: 20px; 
+    font-family: 'Pangea Afrikan Trial SemiBold';color:white; 
+    background-color: black; 
+    height: 50px;
+    width:100%;
+    font-size: 30px;
+    line-height: 50px;;
+}
+#btn-signup:hover{
+    background-color: orangered;
+}
+
+
+/* Design thanh header*/
+#navbar {
+    background-color: white;
+    height: fit-content;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);/*tạo double shadơ*/
+    position: sticky;
+    position: -webkit-sticky;
+    z-index:10;
+    top: 0;
+}
+  
+a{
+    text-decoration: none;
+}
+
+
+a:hover.navitem {
+    background-color: black;
+    color: white;
+}
+
+a:hover#login {
+    background-color: red;
+    color: white;
+}
+
+a:hover .mainmenu-link-item{
+    background-color: rgb(100, 100, 100);
+}
+
+#login{
+    height: 85%;
+    border-radius: 7px;
+    box-sizing: content-box;
+    padding: 15px 5px 15px 5px;
+    color:#f84258;
+}
+
+.logo-name{
+     color:#f84258;
+}
+.logo-name:hover{
+    color:#f84258;
+    text-decoration: none;
+}
+
+.logo img{
+    height: 25px;
+}
+
+.mainmenu-logo img{
+    height: 50px;
+}
+
+.nav-links{
+    display:flex;
+    list-style: none;
+    width:60%;
+    justify-content: flex-end;
+    align-items: center;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size:12px;
+    font-family: 'Pangea Afrikan Trial SemiBold';
+    margin-bottom: 0 !important;
+    gap: 10px;
+}
+
+.navitem{
+    box-sizing: content-box;
+    padding: 15px 5px 15px 5px;
+    border-radius: 7px;
+    color: black;
+}
+
+
+.phone-email{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 60%;
+}
+.phone{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.mail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.phone-head{
+    color: rgb(255, 255, 255); 
+    font-weight: light; 
+    font-size: 17px; 
+    font-family: 'Pangea Afrikan Trial Light'; 
+    margin-bottom: 5px;
+}
+
+.phone-content{
+    color: white; 
+    font-weight: light; 
+    font-size: 25px; 
+    font-family: 'Pangea Afrikan Trial Light';
+}
+
+.mail img{
+    height: 30px;
+}
+
+.phone img{
+    height: 30px;
+}
+
+.mail-head{
+    color: rgb(255, 255, 255);
+    font-weight: light; 
+    font-size: 17px; 
+    font-family: 'Pangea Afrikan Trial Light'; 
+    margin-bottom: 5px;    
+}
+.mail-content{
+    color: white; 
+    font-weight: light; 
+    font-size: 25px; 
+    font-family: 'Pangea Afrikan Trial Light';
+}
+
+#submit-button{
+border:0px; 
+border-radius: 20px; 
+font-family: 'Pangea Afrikan Trial SemiBold';color:white; 
+background-color: black; 
+width:100%;
+padding: 10px 3px 10px 3px;
+}
+#submit-button:hover{
+    background-color: orangered;
+}
+
+#footer {
+    background-color: black;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 10px 10px 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.footer-message {
+    width: 30%;
+}
+
+.footer-message-header{
+    color:white; 
+    font-size: 25px; 
+    font-family: 'Pangea Afrikan Trial SemiBold';
+}
+
+.footer-message-content{
+    color:white; 
+    font-size: 12px; 
+    font-family: 'Pangea Afrikan Trial Light'; 
+    width: 60%;
+}
+
+.socialicon{
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    gap: 25px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.socialicon img{
+    height: 30px;
+}
+
+@media screen and (width <= 600px) {
+    body{
+        background-size: 1200%;
+    }
+    .nav-links{
+        width:80%;
+        letter-spacing: 0px;
+        font-weight: 600;
+        font-size:10px;
+    }
+       .footer-message-header{
+        font-size: 15px; 
+    }
+    .footer-message-content{
+        font-size: 6px; 
+    }
+    .mail img{
+        height: 15px;
+    }
+    .mail-head{ 
+        font-size: 8px; 
+    }
+    .mail-content{
+        font-size: 13px; 
+    }
+    .phone-head{
+        font-size: 8px; 
+    }
+    .phone-content{
+        font-size: 13px; 
+    }
+    .socialicon{
+        width: 20%;
+        gap: 15px;
+    }
+    .socialicon img{
+        height: 15px;
+    }
+
+    .login-container {
+        width: 70%;
+        padding-top: 25px;
+        height: 30%;
+    }
+    .signup-container {
+        width: 70%;
+        padding-top: 25px;
+        height: 30%;
+    }
+    .form-head{
+        font-size: 30px; 
+        margin-bottom: 15px
+    }
+    #username{
+        margin-bottom: 10px;
+        width: 100%;
+        height: 40px;
+        font-size: 20px;
+    }
+    
+    #email{
+        margin-bottom: 10px;
+        width: 100%;
+        height: 40px;
+        font-size: 20px;
+    }
+    
+    #password{
+        margin-bottom: 10px;
+        width: 100%;
+        height: 40px;
+        font-size: 20px;
+
+    }
+    
+    #btn-login{
+        height: 40px;
+        width:100%;
+        font-size: 20px;
+        line-height: 40px;;
+    }
+    hr {
+        margin-top: 15px;
+        margin-bottom: 5px !important
+    }
+    .question {
+        margin-top: 2px;
+        font-size: 15px;
+    }
+    #btn-signup{
+        height: 40px;
+        width:100%;
+        font-size: 20px;
+        line-height: 40px;;
+    }
+}
+
+@media screen and (width > 600px) and (width <= 768px){
+    body{
+        background-size: 700%;
+    }
+    .footer-message-header{
+        font-size: 15px; 
+    }
+    .footer-message-content{
+        font-size: 6px; 
+    }
+    .mail img{
+        height: 15px;
+    }
+    .mail-head{ 
+        font-size: 8px; 
+    }
+    .mail-content{
+        font-size: 13px; 
+    }
+    .phone-head{
+        font-size: 8px; 
+    }
+    .phone-content{
+        font-size: 13px; 
+    }
+    .socialicon{
+        width: 20%;
+        gap: 15px;
+    }
+    .socialicon img{
+        height: 15px;
+    }
+    .login-container {
+        width: 70%;
+        padding-top: 25px;
+        height: 30%;
+    }
+    .signup-container {
+        width: 70%;
+        padding-top: 25px;
+        height: 30%;
+    }
+    .form-head{
+        font-size: 30px; 
+        margin-bottom: 15px
+    }
+    #username{
+        margin-bottom: 10px;
+        width: 100%;
+        height: 40px;
+        font-size: 20px;
+    }
+    
+    #email{
+        margin-bottom: 10px;
+        width: 100%;
+        height: 40px;
+        font-size: 20px;
+    }
+    
+    #password{
+        margin-bottom: 10px;
+        width: 100%;
+        height: 40px;
+        font-size: 20px;
+
+    }
+    
+    #btn-login{
+        height: 40px;
+        width:100%;
+        font-size: 20px;
+        line-height: 40px;;
+    }
+    hr {
+        margin-top: 15px;
+        margin-bottom: 5px !important
+    }
+    .question {
+        margin-top: 2px;
+        font-size: 15px;
+    }
+    #btn-signup{
+        height: 40px;
+        width:100%;
+        font-size: 20px;
+        line-height: 40px;;
+    }
+}
+
+@media screen and (width > 768px) and (width <= 992px){
+    body{
+        background-size: 500%;
+    }
+    .footer-message-header{
+        font-size: 15px; 
+    }
+    .footer-message-content{
+        font-size: 6px; 
+    }
+    .mail img{
+        height: 15px;
+    }
+    .mail-head{ 
+        font-size: 8px; 
+    }
+    .mail-content{
+        font-size: 13px; 
+    }
+    .phone-head{
+        font-size: 8px; 
+    }
+    .phone-content{
+        font-size: 13px; 
+    }
+    .socialicon{
+        width: 20%;
+        gap: 15px;
+    }
+    .socialicon img{
+        height: 15px;
+    }
+    .login-container {
+        width: 70%;
+        padding-top: 25px;
+        height: 30%;
+    }
+    .signup-container {
+        width: 70%;
+        padding-top: 25px;
+        height: 30%;
+    }
+    .form-head{
+        font-size: 30px; 
+        margin-bottom: 15px
+    }
+    #username{
+        margin-bottom: 10px;
+        width: 100%;
+        height: 40px;
+        font-size: 20px;
+    }
+    
+    #email{
+        margin-bottom: 10px;
+        width: 100%;
+        height: 40px;
+        font-size: 20px;
+    }
+    
+    #password{
+        margin-bottom: 10px;
+        width: 100%;
+        height: 40px;
+        font-size: 20px;
+
+    }
+    
+    #btn-login{
+        height: 40px;
+        width:100%;
+        font-size: 20px;
+        line-height: 40px;;
+    }
+    hr {
+        margin-top: 15px;
+        margin-bottom: 5px !important
+    }
+    .question {
+        margin-top: 2px;
+        font-size: 18px;
+    }
+    #btn-signup{
+        height: 40px;
+        width:100%;
+        font-size: 20px;
+        line-height: 40px;;
+    }
+}
+
+@media screen and (width > 992px) and (width <= 1200px){
+    body{
+        background-size: 380%;
+    }
+    .mainmenu-logo img{
+        height: 30px;
+    }
+
+    .mainmenu {
+        height: fit-content;
+        align-items: flex-start;
+        padding: 0px 5px 0px 20px;
+        top: 44px;
+    }
+    .search-cart {
+        width: 25%;
+        gap: 5px;
+    }
+
+    .search-input {
+        width: 90%;
+        font-size: 6px;
+        font-family: 'Pangea Afrikan Trial Medium';
+    }
+
+    .search-icon img {
+        height: 15px;
+    }
+    .img-cart img{
+        height: 15px;
+    }
+
+    .mainmenu-link {
+        display:flex;
+        flex-direction: row;
+        width: 70%;
+        height: 100%;
+        gap: 0;
+        align-items: center;
+        letter-spacing: 0px;
+        font-size: 13px;
+        font-family: 'Pangea Afrikan Trial Medium';
+    }
+    
+    .mainmenu-link-item {
+        box-sizing: content-box;
+        padding-left: 7px;
+        padding-right: 7px;
+        height:40px;
+        line-height: 40px;
+        color: white;
+    }
+
+    .mainmenu-link-product {
+        box-sizing: content-box;
+        height:40px;
+        line-height: 40px;
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+    .container-request-mess p {
+        font-size: 40px;
+    }
+    .mainmenu-logo {
+        align-self: center;
+    }
+    .search-cart {
+        align-self: center;
+    }
+    .login-container {
+        width: 50%;
+        padding-top: 25px;
+        height: 50%;
+    }
+    .signup-container {
+        width: 50%;
+        padding-top: 25px;
+        height: 50%;
+    }
+}
+@media screen and (width > 1200px) and (width <= 1500px){
+    body{
+        background-size: 320%;
+    }
+}
+
+@media screen and (width > 1200px) and (width <= 1500px){
+    body{
+        background-size: 320%;
+    }
+}
+
+@media screen and (width > 1500px) and (width <= 1850px){
+    body{
+        background-size: 280%;
+    }
+}

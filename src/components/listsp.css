@@ -1,0 +1,31 @@
+.product-item{
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 15px;
+}
+.img-fluid {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.product-img:hover .btns{
+    bottom: 0;
+}
+.heart-icon{
+    position: absolute;
+    top: 16px;
+    right: 15px;
+    font-size: 18px;
+}
+
+.product-type{
+    font-size: 13px;
+    opacity: 0.8;
+}
+.product-name{
+    transition: all 0.3s ease-in-out;
+}
+.product-name:hover{
+    color: orange!important;
+}
+.product-price{
+    color: orangered;
+}

@@ -1,0 +1,57 @@
+.backgroundCRUDD{
+    margin:0;
+    padding:0;
+    height: 100%;
+    box-sizing:border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-size: 100%;
+    background-position:center;
+    background-repeat:repeat;
+}
+
+.backgroundorder{
+    margin:0;
+    padding:0;
+    height: 100vh;
+    box-sizing:border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-size: 100%;
+    background-position:center;
+    background-repeat:repeat;
+}
+
+.container1 {
+    overflow-y: scroll;
+    height: 70vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.container-manage-product {
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.ordertile-pagination-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
