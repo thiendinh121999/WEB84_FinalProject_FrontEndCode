@@ -17,7 +17,7 @@ function ManageOrder() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const responseOrderList = await axios.get('http://localhost:8080/api/order/getlistorder',
+                const responseOrderList = await axios.get('https://web84-finalproject-backendcode.onrender.com/api/order/getlistorder',
                     {params: {
                         page: currentPage,
                         pageSize: pageSize
@@ -52,7 +52,7 @@ function ManageOrder() {
 
     //Delete one order
     const DeleteOne = async (requestId) => {
-        axios.delete(`http://localhost:8080/api/order/deleteorder/${requestId}`)
+        axios.delete(`https://web84-finalproject-backendcode.onrender.com/api/order/deleteorder/${requestId}`)
       .then(response => {
         console.log('Order deleted successfully');
         // Remove the deleted request from the state

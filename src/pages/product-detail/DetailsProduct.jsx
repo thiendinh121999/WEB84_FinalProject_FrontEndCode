@@ -3,7 +3,7 @@ import { useLocation  } from 'react-router-dom';
 
 function DetailsProduct() {
     const location = useLocation();
-    const product = location.state.item || {};
+    const product = location.state.item || {}; //This line retrieves the product data passed from the previous route using the state property in the location object
 
 
     const [ImageShow, setImageShow] = useState(product ? product.detailimage1 : '');

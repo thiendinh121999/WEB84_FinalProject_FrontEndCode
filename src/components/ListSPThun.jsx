@@ -21,7 +21,7 @@ function ListSPThun() {
                /* const res = await fetch('https://66bf265342533c403145399b.mockapi.io/ListSPChayBo');
                 const data = await res.json();
                 setDataAPI(data);*/
-                const responseThunProduct = await axios.get('http://localhost:8080/api/product/getthunproduct')
+                const responseThunProduct = await axios.get('https://web84-finalproject-backendcode.onrender.com/api/product/getthunproduct')
                 setDataAPI(responseThunProduct.data.data);
                 setGetAPIStatus(true);
             } catch (error) {
@@ -72,7 +72,7 @@ function ListSPThun() {
                 {/* <div className="row g-4 my-5 mx-auto owl-carousel owl-theme"> */}
                 <CarouselComponent>
                     {dataAPI.map((item) => {
-                        return <div className="col product-item mx-auto margin-important" key={item.id}>
+                        return <div className="col product-item mx-auto margin-important" key={item._id}>
                             <div className="product-img">
                                 <img src={item.image} alt="" className="img-fluid d-block mx-auto"></img>
                                 <span className="heart-icon">
@@ -84,7 +84,7 @@ function ListSPThun() {
                                     </button>
                                     <button type="button" className="col-6 py-2">
                                         <Link to={{
-                                            pathname: `/Products/${item.id}`
+                                            pathname: `/Products/${item._id}`
                                         }} state={{ item }}>
                                             <i className="fa fa-cart-plus" style={{ color: "white!" }}></i> Xem chi tiết
                                         </Link>
@@ -95,7 +95,7 @@ function ListSPThun() {
                             <div className="product-info p-3">
                                 <span className="product-type">{item.type}</span>
                                 <Link to={{
-                                            pathname: `/Products/${item.id}`
+                                            pathname: `/Products/${item._id}`
                                         }} state={{ item }} className="d-block text-dark text-decoration-none py-2 product-name">{item.name}</Link>
                                 <p className="prodescript">{item.description}</p>
                                 <span className="product-price">VNĐ {item.price}</span>

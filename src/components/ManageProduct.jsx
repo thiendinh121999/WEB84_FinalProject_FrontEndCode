@@ -20,7 +20,7 @@ function ManageProduct() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const responseProductList = await axios.get('http://localhost:8080/api/product/getallproduct',
+                const responseProductList = await axios.get('https://web84-finalproject-backendcode.onrender.com/api/product/getallproduct',
                     {params: {
                         page: currentPage,
                         pageSize: pageSize
@@ -55,7 +55,7 @@ function ManageProduct() {
 
 
     const DeleteOne = async (requestId) => {
-        axios.delete(`http://localhost:8080/api/product/deleteoneproduct/${requestId}`)
+        axios.delete(`https://web84-finalproject-backendcode.onrender.com/api/product/deleteoneproduct/${requestId}`)
       .then(response => {
         console.log('Request deleted successfully');
         // Remove the deleted request from the state

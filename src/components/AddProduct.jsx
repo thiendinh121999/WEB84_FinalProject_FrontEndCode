@@ -35,7 +35,7 @@ function AddProduct() {
                     detailimageBig1: inputdetailimageBig1.current.value,
                     detailimageBig2: inputdetailimageBig1.current.value,*/
                     // inputname.current.value
-    const BASE_URL = 'http://localhost:8080/api/product/'
+    const BASE_URL = 'https://web84-finalproject-backendcode.onrender.com/api/product/'
 
     const [UpdateProduct, setUpdateProduct] = useState("")
 

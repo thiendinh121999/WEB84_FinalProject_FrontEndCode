@@ -41,7 +41,7 @@ const Signup = () => {
             alert("Đăng ký thất bại. Vui lòng thử lại sau.");
           }*/
             
-            const responseSignUp = await axios.post('http://localhost:8080/api/user/signup', {
+            const responseSignUp = await axios.post('https://web84-finalproject-backendcode.onrender.com/api/user/signup', {
               email: email,
               password: password,
               userName: userName,

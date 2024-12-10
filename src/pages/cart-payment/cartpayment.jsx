@@ -72,7 +72,7 @@ const CartPayment = () => {
         console.log("refreshTokenCheck", refreshTokenCheck)
         if (refreshTokenCheck !== null) {
             try {                
-                const responseSalescode = await axios.get(`http://localhost:8080/api/salescode/getsalescode/${salesCodeInput}`);
+                const responseSalescode = await axios.get(`https://web84-finalproject-backendcode.onrender.com/api/salescode/getsalescode/${salesCodeInput}`);
                 console.log('responseSalescode',responseSalescode)
                 if (!responseSalescode) {
                     alert('Không tìm thấy mã khuyến mãi hoặc áp dụng không thành công!')
@@ -164,7 +164,7 @@ const CartPayment = () => {
             } else {
               alert("Đơn hàng chưa được tiếp nhận, xin vui lòng thử lại");
             }*/
-              const responseCreateOrder = await axios.post('http://localhost:8080/api/order/createneworder', {
+              const responseCreateOrder = await axios.post('https://web84-finalproject-backendcode.onrender.com/api/order/createneworder', {
                 customerName: buyername,
                 customerPhoneNumber: buyerphone,
                 customerEmail: buyeremail,

@@ -14,7 +14,7 @@ const ProductRequest = () => {
     const customerEmail = document.getElementById("requesterEmail").value;
     
     try {
-      const responseRequest = await axios.post('http://localhost:8080/api/request/createnewrequest', {
+      const responseRequest = await axios.post('https://web84-finalproject-backendcode.onrender.com/api/request/createnewrequest', {
         request: request,
         customerName: customerName,
         customerPhone: customerPhone,

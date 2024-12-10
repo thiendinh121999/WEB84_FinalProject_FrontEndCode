@@ -18,7 +18,7 @@ function ManageRequest() {
             try {
                 /*const res = await fetch(`${BASE_URL_REQUEST}`);
                 const data = await res.json();*/
-                const responseRequestList = await axios.get('http://localhost:8080/api/request/getrequest',
+                const responseRequestList = await axios.get('https://web84-finalproject-backendcode.onrender.com/api/request/getrequest',
                     {params: {
                         page: currentPage,
                         pageSize: pageSize
@@ -52,7 +52,7 @@ function ManageRequest() {
 
     //Delete request
     const DeleteOne = async (requestId) => {
-        axios.delete(`http://localhost:8080/api/request/deleterequest/${requestId}`)
+        axios.delete(`https://web84-finalproject-backendcode.onrender.com/api/request/deleterequest/${requestId}`)
       .then(response => {
         console.log('Request deleted successfully');
         // Remove the deleted request from the state

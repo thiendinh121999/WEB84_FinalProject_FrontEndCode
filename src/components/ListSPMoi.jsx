@@ -28,7 +28,7 @@ function ListSPMoi() {
                 /*const res = await fetch('https://66beccce42533c40314414cb.mockapi.io/ListSPMoi-ChayBo');
                 const data = await res.json();
                 setDataAPI(data);*/      
-                const responseNewProduct = await axios.get('http://localhost:8080/api/product/getnewproduct')
+                const responseNewProduct = await axios.get('https://web84-finalproject-backendcode.onrender.com/api/product/getnewproduct')
                 setDataAPI(responseNewProduct.data.data);
                 setGetAPIStatus(true)
             } catch (error) {
@@ -101,7 +101,7 @@ function ListSPMoi() {
 
                                     <button type="button" className="col-6 py-2">
                                         <Link to={{
-                                            pathname: `/Products/${item.id}` //Chuyển đến trang detail. cần sửa
+                                            pathname: `/Products/${item._id}` //Chuyển đến trang detail. cần sửa
                                         }} state={{ item }}>
                                             <i className="fa fa-cart-plus" style={{ color: "white!" }}></i> Xem chi tiết
                                         </Link>
@@ -112,7 +112,7 @@ function ListSPMoi() {
                             <div className="product-info p-3">
                                 <span className="product-type">{item.type}</span>
                                 <Link to={{
-                                            pathname: `/Products/${item.id}` //Chuyển đến trang detail. cần sửa
+                                            pathname: `/Products/${item._id}` //Chuyển đến trang detail. cần sửa
                                         }} state={{ item }} className="d-block text-dark text-decoration-none py-2 product-name">{item.name}</Link>
                                 <p className="prodescript">{item.description}</p>
                                 <span className="product-price">VNĐ {item.price}</span>
